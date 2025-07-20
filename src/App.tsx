@@ -1,10 +1,10 @@
+import './index.css'
 
+import { RouterProvider } from 'react-router-dom'
+
+import { Button } from './components/ui/button'
+import { router } from './routes'
 
 export function App() {
-
-  return (
-    <>
-      <h1>ola mundo!</h1>
-    </>
-  )
+  return <RouterProvider router={router} />
 }
