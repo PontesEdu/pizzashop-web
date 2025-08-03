@@ -1,3 +1,4 @@
+import { Pagination } from '@/components/pagination'
 import {
   Table,
   TableBody,
@@ -8,7 +9,6 @@ import {
 
 import { OrderTableFilters } from './order-table-filters'
 import { OrderTableRow } from './order-table-row'
-import { Pagination } from '@/components/pagination'
 
 export function Orders() {
   return (
